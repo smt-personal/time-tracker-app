@@ -1,0 +1,29 @@
+.entry{
+	display: flex;
+	width: 100%;
+	justify-content: space-between;
+	align-items: center;
+
+	&--toggle-more-container{
+		width: 10px;
+		padding: 0 10px;
+		display: inline-block;
+	}
+
+	&--item-name{
+		flex-basis: 200px;
+	}
+
+	&--toggle-more{
+		background-color: #333;
+		color: #fff;
+		font-size: 16px;
+		padding: 4px;
+	}
+
+	&--task-name{
+		font-size: 20px;
+		display: inline-block;
+		padding: 5px 10px;
+	}
+}

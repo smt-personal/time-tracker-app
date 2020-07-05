@@ -1,0 +1,19 @@
+.day{
+	margin-top: 30px;
+
+	&--header{
+		display: flex;
+		background-color: $gray;
+		color: #fff;
+		font-size: 18px;
+		padding: 4px;
+	}
+
+	&--header-day{
+		padding: 0 10px;
+	}
+
+	&--header-total-time{
+		margin-left: auto;
+	}
+}
