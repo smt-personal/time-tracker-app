@@ -7,7 +7,7 @@ import { SaveToFile } from './SaveToFile'
 import { Day } from './records/Day'
 
 //import { dummyRecs as records } from './../../mongoose/dummyRecs'
-import { dummyRecs as records } from './../../mongoose/dummyRecs_old'
+import { dummyRecs as records } from './../../../../server/mongoose/dummyRecs_old'
 import { secsToHHMMSS, getTaskEntryTime, getCurrentYYYYMMDD } from './../funcs'
 
 export class App extends React.Component
@@ -15,7 +15,7 @@ export class App extends React.Component
 
 	constructor(props)
 	{
-		super(props)
+		super(props) 
 
 		this.state = {
 			duration: 0,

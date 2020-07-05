@@ -3,7 +3,7 @@ const app = express()
 const mongoose = require('mongoose')
 //const path = require('path');
 
-app.use(express.static('dist'))
+app.use(express.static('client/dist'))
 
 app.listen(3000, () => console.log('Example app listening at http://localhost:3000'))
 
