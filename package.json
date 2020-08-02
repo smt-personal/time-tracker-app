@@ -12,10 +12,7 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "dependencies": {
-    "express": "^4.17.1",
-    "webpack": "^4.43.0"
-  },
+  "dependencies": {},
   "devDependencies": {
     "@babel/core": "^7.10.2",
     "@babel/preset-env": "^7.10.2",
@@ -33,6 +30,8 @@
     "style-loader": "^1.2.1",
     "webpack-cli": "^3.3.12",
     "lodash": "^4.17.19",
-    "elliptic": "^6.5.3"
+    "elliptic": "^6.5.3",
+    "express": "^4.17.1",
+    "webpack": "^4.43.0"
   }
 }
