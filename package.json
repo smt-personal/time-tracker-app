@@ -3,9 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "directories": {
-    "lib": "lib"
-  },
+  "directories": {},
   "scripts": {
     "dev": "concurrently --kill-others \"node express\" \"webpack\" \"livereload ./dist/ -w 1000 -d\""
   },
